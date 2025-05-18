@@ -89,17 +89,20 @@ html,body{
     font-size: xxx-large;
     align-items: center;
     /* margin-top: 10px; */
-    margin: 20px;
+    margin: 60px;
     display: flex;
     justify-content: center;
-    background-color: rgb(238, 255, 255);
+    background-color: rgb(255, 255, 255);
 
 }
 
 .value{
-    background-color: white;
+    background-color: red
 }
 
+.value :hover{
+    color: red;
+}
 
 #page2{
     height: 10%;
